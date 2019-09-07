@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 1500;
+    color: #222222;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.top{
+    background-color:#222222;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #fefefe;
+    height: 70%;
+    text-align: center;
+
+}
+.summery{
+    height: 30%;
+    justify-self: center;
+    align-self: center;
+    text-transform: uppercase;
+}
+.others{
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.others1, .others2{
+    flex:1;
+    border-right: 2px solid #222222;
+}
+.others3{
+    flex:1;
+}
+h2, h3{
+    padding: 10px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #232323;
+    height: 15%;
+}
+p{
+    font-size: 0.8em;
+    text-align: center;
+    color: #fe7122;
+}
