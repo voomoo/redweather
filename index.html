@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/gif" href="icon.png">
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
-    <link rel="icon" href="icon.png" type="image/gif">
-    <title>RED weather</title>
+    <title>REDweahter</title>
 </head>
 
 <body>
     <div class="container">
         <div class="top">
-            <svg width="180" height="60" viewBox="0 0 991 304" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <svg class="logo" width="180" height="60" viewBox="0 0 991 304" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                     d="M368.388 79.54C273.188 -50.46 193.055 36.7067 164.888 96.54C83.6879 55.74 34.0546 113.54 19.3879 147.54C-11.0121 242.34 59.7212 280.373 98.8879 287.54H381.888C517.888 180.74 429.555 104.373 368.388 79.54Z"
                     stroke="#FE7122" stroke-width="24" />
@@ -26,38 +28,44 @@
                     fill="#FEFEFE" />
             </svg>
 
+            <ul>
+                <li class="openWeather"><a href="#">OpenWeather</a></li>
+                <li class="darkSky active"><a href="#">DarkSky</a></li>
+            </ul>
+
 
 
         </div>
         <div class="mid">
-            <div class="summery">
-                <h1 class="summary">Mostly Cloudy</h1>
+            <div class="condition">
+                <h1 class="summary">No Connection</h1>
             </div>
             <div class="others">
-                <div class="others1">
+                <div class="time">
                     <h2>Time</h2>
-                    <h3 class="time">00:00:00</h3>
+                    <h3 class="currentTime"></h3>
                 </div>
-                <div class="others2">
+                <div class="temp">
                     <h2>Temperature</h2>
-                    <h3 class="temp">30°C</h3>
+                    <h3 class="currentTemp"></h3>
                 </div>
-                <div class="others3">
+                <div class="location">
                     <h2>Location</h2>
 
-                    <h3 class="location">Dhaka</h3>
+                    <h3 class="currentLocation"></h3>
                 </div>
 
             </div>
 
         </div>
         <div class="bottom">
-            <P>Developed by Saidur Rahman Riad</P>
-            <p>Designed by Rakibul Hasan</p>
+            <P><span>Developed by</span> Saidur Rahman Riad</P>
+            <p><span>Designed by</span> Rakibul Hasan</p>
 
         </div>
     </div>
-    <script src="./openWeather-script.js"></script>
+    <script src="./test-script.js"></script>
+    <!-- <script src="./weather.js"></script> -->
 </body>
 
 </html>
